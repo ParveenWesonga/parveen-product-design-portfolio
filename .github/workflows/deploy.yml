@@ -36,7 +36,7 @@ jobs:
 
       - name: Build portfolio
         working-directory: ./parveen-product-design-portfolio
-        run: npm run build
+        run: node ./node_modules/vite/bin/vite.js build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
