@@ -18,6 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,29 +28,29 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - name: Check project files
-        run: |
-          pwd
-          ls -la
-          find . -maxdepth 3 -name package.json
-               - name: Install dependencies
-          working-directory: .
-          run: npm install
+          cache-dependency-path: parveen-product-design-portfolio/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./parveen-product-design-portfolio
+        run: npm install
 
       - name: Build portfolio
+        working-directory: ./parveen-product-design-portfolio
         run: npm run build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./parveen-product-design-portfolio/dist
 
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
     needs: build
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
