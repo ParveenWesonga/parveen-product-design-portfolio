@@ -34,7 +34,7 @@ jobs:
         working-directory: ./parveen-product-design-portfolio
         run: npm install
 
-      - name: Build portfolio
+            - name: Build portfolio
         working-directory: ./parveen-product-design-portfolio
         run: node ./node_modules/vite/bin/vite.js build
 
