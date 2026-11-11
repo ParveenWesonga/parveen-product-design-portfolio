@@ -328,7 +328,7 @@ function LifeCueCaseStudy() {
         </div>
         <img
           className="lifecue-gallery-image"
-          src="/assets/lifecue-reminders.png"
+          src="/parveen-product-design-portfolio/assets/lifecue-reminders.png"
           alt="LifeCue medication and habit reminder interface designs"
         />
         <p className="lifecue-image-caption">
@@ -400,56 +400,64 @@ function UshauriCaseStudy() {
       title: "Mood Check-in",
       description:
         "An onboarding screen that allows users to reflect on how they are feeling.",
-      image: "/assets/ushauri-onboarding-mood.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-onboarding-mood.png"),
       alt: "Ushauri mood check-in onboarding screen",
     },
     {
       title: "Personal Goals",
       description:
         "Users identify personal wellness goals to help shape their experience.",
-      image: "/assets/ushauri-onboarding-goals.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-onboarding-goals.png"),
       alt: "Ushauri personal goals onboarding screen",
     },
     {
       title: "Home Dashboard",
       description:
         "A central dashboard bringing together mood summaries, wellness tips, motivation and support options.",
-      image: "/assets/ushauri-home.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-home.png"),
       alt: "Ushauri home dashboard",
     },
     {
       title: "Counsellor Directory",
       description:
         "A directory that helps users explore available counselling support.",
-      image: "/assets/ushauri-counsellors.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-counsellors.png"),
       alt: "Ushauri counsellor directory",
     },
     {
       title: "Communities",
       description:
         "A space where users can explore communities and connect around shared experiences.",
-      image: "/assets/ushauri-communities.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-communities.png"),
       alt: "Ushauri communities screen",
     },
     {
       title: "Mshauri Virtual Assistant",
       description:
         "A conversational interface designed to make wellness guidance more approachable.",
-      image: "/assets/ushauri-mshauri-chat.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-mshauri-chat.png"),
       alt: "Ushauri Mshauri virtual assistant chat",
     },
     {
       title: "Mood Tracking",
       description:
         "A screen for recording and reflecting on emotional patterns over time.",
-      image: "/assets/ushauri-mood-tracking.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-mood-tracking.png"),
       alt: "Ushauri mood tracking screen",
     },
     {
       title: "User Profile",
       description:
         "A personal space where users can view and manage their profile information.",
-      image: "/assets/ushauri-profile.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/ushauri-profile.png"),
       alt: "Ushauri user profile screen",
     },
   ];
@@ -578,19 +586,22 @@ function UshauriCaseStudy() {
 function RelBeautyCaseStudy() {
   const screenshots = [
     {
-      image: "/assets/relbeauty-home.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/relbeauty-home.png"),
       title: "Homepage",
       description:
         "Introducing the institute and guiding visitors to explore or apply.",
     },
     {
-      image: "/assets/relbeauty-courses.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/relbeauty-courses.png"),
       title: "Courses",
       description:
         "Presenting the training programmes in a clear, accessible layout.",
     },
     {
-      image: "/assets/relbeauty-admissions.png",
+      image: (src =
+        "/parveen-product-design-portfolio/assets/relbeauty-admissions.png"),
       title: "Admissions",
       description:
         "Helping prospective students understand and begin the application process.",
