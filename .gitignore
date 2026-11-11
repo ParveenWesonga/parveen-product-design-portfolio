@@ -1,0 +1,5 @@
+parveen-product-design-portfolio/node_modules/
+parveen-product-design-portfolio/dist/
+.env
+.env.*
+!.env.example
