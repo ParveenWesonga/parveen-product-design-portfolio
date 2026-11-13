@@ -858,7 +858,7 @@ function App() {
               <em>meaningful.</em>
             </h2>
             <p>
-              I’m open to junior product design, UX design and digital product
+              I’m open to product design, UX design and digital product
               opportunities.
             </p>
             <a className="button light" href="mailto:wesongaparveen@gmail.com">
