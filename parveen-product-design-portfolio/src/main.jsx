@@ -836,7 +836,7 @@ function App() {
               sense to the people using it.
             </p>
             <div className="skill-list">
-              <span>UX research basics</span>
+              <span>UX research</span>
               <span>Wireframing</span>
               <span>Prototyping</span>
               <span>Figma</span>
